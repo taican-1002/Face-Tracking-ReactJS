@@ -96,8 +96,8 @@ export default (props) => {
         <a-camera active="false" position="0 0 0"></a-camera>
         <a-entity mindar-face-target="anchorIndex: 168">
           <a-gltf-model
-            // mindar-face-occluder
-            position="0 0 0"
+            mindar-face-occluder
+            position="0 -0.3 0.15"
             rotation="0 0 0"
             scale="0.065 0.065 0.065"
             src="#headModel"

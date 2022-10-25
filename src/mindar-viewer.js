@@ -97,7 +97,7 @@ export default (props) => {
         <a-entity mindar-face-target="anchorIndex: 168">
           <a-gltf-model
             // mindar-face-occluder
-            position="0 -0.3 0.15"
+            position="0 0 0"
             rotation="0 0 0"
             scale="0.065 0.065 0.065"
             src="#headModel"
